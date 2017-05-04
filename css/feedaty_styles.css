@@ -1,0 +1,194 @@
+/* FEEDATY STYLES FOR WIDGETS AND MICRODATA ON FRONTEND */
+
+/*
+*---------------------------------------------
+*	0. MENU
+*---------------------------------------------
+
+	1. WIDGET STORE STYLES 
+	2. WIDGET PRODUCT STYLES
+	3. REVIEWS TAB	
+	4. MICODATA STORE STYLE
+	5. MICRODATA PRODUCT STYLE
+	6. MEDIA QUERY
+
+*/
+
+
+/*
+*---------------------------------------------
+* 1. WIDGET STORE STYLES
+*---------------------------------------------
+*/
+
+#feedatyBlock_home{
+	padding-top: 1%;
+}
+
+#feedatyBlock_top {
+
+}
+
+#feedatyBlock_footer {
+	display: block;
+	margin-top: 10px;
+ 	float: right;
+}
+
+#feedatyBlock_leftColumn{
+
+}
+
+#feedatyBlock_rightColumn {
+
+}
+
+
+/*
+*---------------------------------------------
+* 2. WIDGET PRODUCT STYLES
+*---------------------------------------------
+*/
+	
+	/*Main div for leftColumnProduct pos*/
+	#feedatyBlock_leftColumnProduct{
+		display: block;
+		margin-top:2px;
+		padding-top: 5%;
+		position: relative;
+		box-sizing: border-box;
+		min-height: 100%;
+	}
+
+	#FdWidget_leftColumnProduct {
+		min-width: 100%;
+	}
+
+	#feedatyBlock_rightColumnProduct {
+		display: block;
+		margin-top:2px auto;
+		position: relative;
+		box-sizing: border-box;
+		min-height: 100%;
+	}
+
+	#FdWidget_rightColumnProduct {
+		min-width: 100%;
+	}
+
+
+	#feedatyBlock_productButtons {
+		position: relative;
+		box-sizing: border-box;
+		margin-top:auto;
+		padding-top:5%;
+		vertical-align: baseline;
+		display: block;
+		min-width: 100%;
+		min-height: 160px;
+	}
+
+	#FdWidget_productButtons {
+		min-width: 100%;
+	}
+
+	#feedatyBlock_ProductAdditionalInfo {
+		display: flex;
+		-webkit-box-align: center;
+		box-align: center;
+		-moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        -ms-flex-align: center;
+        margin-top: 1.5rem;
+	}
+}
+/*
+*----------------------------------------------
+*	3. REVIEWS TAB
+*----------------------------------------------
+*/
+
+#idTabfeedatyReviews {
+	display: block;
+		padding-left: 2%;
+	padding-right: 2%;
+}
+
+.feedaty_link p {
+	color:red;
+}
+
+.product_feedaty_reviews_block_tab {
+	margin: 2px auto;
+	float: left;
+	width: 70%;
+
+}
+
+.fd_logo {
+	float: right;
+}
+
+.fd_logo img {
+	width: 80%;
+}
+
+
+/*
+*----------------------------------------------
+*	4. MICODATA STORE STYLE
+*----------------------------------------------
+*/
+#feedatyMicrodata_footer {
+	min-width: 80%;
+	display: block;
+}
+
+/*
+*----------------------------------------------
+*	5. MICRODATA PRODUCT STYLE
+*----------------------------------------------
+*/
+
+
+
+/*
+*----------------------------------------------
+*	6. MEDIA QUERY
+*----------------------------------------------
+*/
+@media screen and (max-width: 768px) {
+	#idTabfeedatyReviews  {
+		padding: 0 20px 20px;
+	}
+
+	.fd_logo img {
+		width: 50%;
+	}
+	#feedatyBlock_home{
+ 		min-width: 85%;
+ 		max-width: 100%;
+ 		padding-top:20px;	
+	}
+
+	#feedatyBlock_top {
+
+	}
+
+	#feedatyBlock_footer {
+ 		min-width: 85%;
+ 		max-width: 100%;
+ 		margin: 2px auto;
+
+	}
+
+	#feedatyBlock_leftColumn{
+
+	}
+
+	#feedatyBlock_rightColumn {
+
+	}
+}
